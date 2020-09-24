@@ -1,0 +1,32 @@
+body {
+    background: rgb(70, 142, 236); /* aqui tambem poderia ser background-color */
+    font: normal 15pt Arial;
+}
+
+header { /* centraliza o texto no centro */
+    color:white;
+    text-align: center;
+
+}
+
+section {  /* criar uma sessão, ou seja uma caixa */
+    background: white; /* aqui sera o fundo dessa caixa */
+    border-radius: 10px; /* esse arrendonda as bordas */
+    padding: 15px;      /* da o espaçamento dentro da caixa */
+    width: 500px;       /* largura da caixa da section */
+    margin: auto;       /* para centralizar a caixa */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);      /* para dar sombra na caixa */
+
+} 
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
